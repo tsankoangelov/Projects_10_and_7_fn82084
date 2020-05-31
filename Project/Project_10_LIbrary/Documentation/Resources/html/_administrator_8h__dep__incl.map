@@ -1,0 +1,7 @@
+<map id="Code/Administrator.h" name="Code/Administrator.h">
+<area shape="rect" id="node1" title="Класът Administrator съдържа данни за профил, който е с администраторски права" alt="" coords="13,5,157,32"/>
+<area shape="rect" id="node2" href="$_administrator_8cpp.html" title=" " alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node3" href="$_library_8h.html" title="Класът Library съдържа данни за една библиотека, която има книги, потребители и администратори" alt="" coords="31,155,138,181"/>
+<area shape="rect" id="node4" href="$_library_8cpp.html" title=" " alt="" coords="25,229,145,256"/>
+<area shape="rect" id="node5" href="$_menu_8cpp.html" title=" " alt="" coords="28,304,141,331"/>
+</map>

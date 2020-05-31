@@ -1,0 +1,242 @@
+\hypertarget{class_customer}{}\doxysection{Customer Class Reference}
+\label{class_customer}\index{Customer@{Customer}}
+
+
+{\ttfamily \#include $<$Customer.\+h$>$}
+
+
+
+Inheritance diagram for Customer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{class_customer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Customer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{class_customer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_customer_abcc8fae9701e5ba9d7d6fe44498b34e3}{Customer}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_customer}{Customer}}\+:\+: \mbox{\hyperlink{class_customer}{Customer}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_customer_a551c3a7139081bc840501bc06c796e96}{Customer}} (const \mbox{\hyperlink{class_customer}{Customer}} \&)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_customer}{Customer}}\+:\+: \mbox{\hyperlink{class_customer}{Customer}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_customer}{Customer}} \& \mbox{\hyperlink{class_customer_add8fa525ae68cf4962e90c53ecc19bfa}{operator=}} (const \mbox{\hyperlink{class_customer}{Customer}} \&)
+\item 
+\mbox{\hyperlink{class_customer_ab93fb14683b0393b9c900109f77c2629}{$\sim$\+Customer}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_customer}{Customer}}\+:\+: \mbox{\hyperlink{class_customer}{Customer}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_customer_a37b4596e14f1dae56786f66d1832b31d}{Customer}} (const char $\ast$, const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_customer}{Customer}}\+:\+: \mbox{\hyperlink{class_customer}{Customer}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_customer_aa972576f90506e03d30a33f4be75a33e}{set\+Capacity\+\_\+books}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+books. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_book}{Book}} $\ast$ \mbox{\hyperlink{class_customer_ad5c68c81279c5dfcdf8e284cbe4402ef}{get\+Books}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ масива books. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_customer_a484cfecd9f0da0b26a1857378e2deda3}{get\+Capacity\+\_\+books}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната capacity\+\_\+books. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_customer_adca08174044f4f08dd2da05e7c591f41}{resizebooks}} ()
+\begin{DoxyCompactList}\small\item\em Функция, която увеличава размера на capacity\+\_\+books, ако няма повече място за нови книги \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_customer_a61f41e14e2fa1e406040b0e4fc4edbe9}{books\+\_\+add}} (\mbox{\hyperlink{class_book}{Book}}, \mbox{\hyperlink{class_book}{Book}} $\ast$, int)
+\begin{DoxyCompactList}\small\item\em Функция, която добавя книга в масива books на потребителя \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_customer_a4621d311539677b0055db088dbc84335}{books\+\_\+remove}} (\mbox{\hyperlink{class_book}{Book}})
+\begin{DoxyCompactList}\small\item\em Функция, която премахва книга в масива books на потребителя \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_customer_ab0ae2ac8da15c62aac018a14e23719b2}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_customer}{Customer}} \&c)
+\begin{DoxyCompactList}\small\item\em Оператор за извеждане на данни на \mbox{\hyperlink{class_customer}{Customer}} в поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_customer_abcc8fae9701e5ba9d7d6fe44498b34e3}\label{class_customer_abcc8fae9701e5ba9d7d6fe44498b34e3}} 
+\index{Customer@{Customer}!Customer@{Customer}}
+\index{Customer@{Customer}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{Customer()}{Customer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Customer\+::\+Customer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_customer}{Customer}}\+:\+: \mbox{\hyperlink{class_customer}{Customer}} object. 
+
+\mbox{\Hypertarget{class_customer_a551c3a7139081bc840501bc06c796e96}\label{class_customer_a551c3a7139081bc840501bc06c796e96}} 
+\index{Customer@{Customer}!Customer@{Customer}}
+\index{Customer@{Customer}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{Customer()}{Customer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Customer\+::\+Customer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_customer}{Customer}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_customer}{Customer}}\+:\+: \mbox{\hyperlink{class_customer}{Customer}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_customer_ab93fb14683b0393b9c900109f77c2629}\label{class_customer_ab93fb14683b0393b9c900109f77c2629}} 
+\index{Customer@{Customer}!````~Customer@{$\sim$Customer}}
+\index{````~Customer@{$\sim$Customer}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{$\sim$Customer()}{~Customer()}}
+{\footnotesize\ttfamily Customer\+::$\sim$\+Customer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_customer}{Customer}}\+:\+: \mbox{\hyperlink{class_customer}{Customer}} object. 
+
+\mbox{\Hypertarget{class_customer_a37b4596e14f1dae56786f66d1832b31d}\label{class_customer_a37b4596e14f1dae56786f66d1832b31d}} 
+\index{Customer@{Customer}!Customer@{Customer}}
+\index{Customer@{Customer}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{Customer()}{Customer()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Customer\+::\+Customer (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+username,  }\item[{const char $\ast$}]{\+\_\+password }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_customer}{Customer}}\+:\+: \mbox{\hyperlink{class_customer}{Customer}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+username} & \\
+\hline
+{\em \+\_\+password} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_customer_a61f41e14e2fa1e406040b0e4fc4edbe9}\label{class_customer_a61f41e14e2fa1e406040b0e4fc4edbe9}} 
+\index{Customer@{Customer}!books\_add@{books\_add}}
+\index{books\_add@{books\_add}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{books\_add()}{books\_add()}}
+{\footnotesize\ttfamily void Customer\+::books\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_book}{Book}}}]{book,  }\item[{\mbox{\hyperlink{class_book}{Book}} $\ast$}]{books\+\_\+array,  }\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Функция, която добавя книга в масива books на потребителя 
+
+
+\begin{DoxyParams}{Parameters}
+{\em book} & \\
+\hline
+{\em books\+\_\+array} & \\
+\hline
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_customer_a4621d311539677b0055db088dbc84335}\label{class_customer_a4621d311539677b0055db088dbc84335}} 
+\index{Customer@{Customer}!books\_remove@{books\_remove}}
+\index{books\_remove@{books\_remove}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{books\_remove()}{books\_remove()}}
+{\footnotesize\ttfamily void Customer\+::books\+\_\+remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_book}{Book}}}]{b }\end{DoxyParamCaption})}
+
+
+
+Функция, която премахва книга в масива books на потребителя 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_customer_ad5c68c81279c5dfcdf8e284cbe4402ef}\label{class_customer_ad5c68c81279c5dfcdf8e284cbe4402ef}} 
+\index{Customer@{Customer}!getBooks@{getBooks}}
+\index{getBooks@{getBooks}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{getBooks()}{getBooks()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_book}{Book}} $\ast$ Customer\+::get\+Books (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ масива books. 
+
+\begin{DoxyReturn}{Returns}
+Book$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_customer_a484cfecd9f0da0b26a1857378e2deda3}\label{class_customer_a484cfecd9f0da0b26a1857378e2deda3}} 
+\index{Customer@{Customer}!getCapacity\_books@{getCapacity\_books}}
+\index{getCapacity\_books@{getCapacity\_books}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{getCapacity\_books()}{getCapacity\_books()}}
+{\footnotesize\ttfamily int Customer\+::get\+Capacity\+\_\+books (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната capacity\+\_\+books. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_customer_add8fa525ae68cf4962e90c53ecc19bfa}\label{class_customer_add8fa525ae68cf4962e90c53ecc19bfa}} 
+\index{Customer@{Customer}!operator=@{operator=}}
+\index{operator=@{operator=}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_customer}{Customer}} \& Customer\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_customer}{Customer}} \&}]{other }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_customer}{Customer}}\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_customer_adca08174044f4f08dd2da05e7c591f41}\label{class_customer_adca08174044f4f08dd2da05e7c591f41}} 
+\index{Customer@{Customer}!resizebooks@{resizebooks}}
+\index{resizebooks@{resizebooks}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{resizebooks()}{resizebooks()}}
+{\footnotesize\ttfamily void Customer\+::resizebooks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция, която увеличава размера на capacity\+\_\+books, ако няма повече място за нови книги 
+
+\mbox{\Hypertarget{class_customer_aa972576f90506e03d30a33f4be75a33e}\label{class_customer_aa972576f90506e03d30a33f4be75a33e}} 
+\index{Customer@{Customer}!setCapacity\_books@{setCapacity\_books}}
+\index{setCapacity\_books@{setCapacity\_books}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{setCapacity\_books()}{setCapacity\_books()}}
+{\footnotesize\ttfamily void Customer\+::set\+Capacity\+\_\+books (\begin{DoxyParamCaption}\item[{int}]{\+\_\+capacity\+\_\+books }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+books. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+capacity\+\_\+books} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_customer_ab0ae2ac8da15c62aac018a14e23719b2}\label{class_customer_ab0ae2ac8da15c62aac018a14e23719b2}} 
+\index{Customer@{Customer}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_customer}{Customer}} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за извеждане на данни на \mbox{\hyperlink{class_customer}{Customer}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Code/\mbox{\hyperlink{_customer_8h}{Customer.\+h}}\item 
+Code/\mbox{\hyperlink{_customer_8cpp}{Customer.\+cpp}}\end{DoxyCompactItemize}

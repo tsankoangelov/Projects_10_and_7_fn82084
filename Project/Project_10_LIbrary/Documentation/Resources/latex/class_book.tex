@@ -1,0 +1,487 @@
+\hypertarget{class_book}{}\doxysection{Book Class Reference}
+\label{class_book}\index{Book@{Book}}
+
+
+Класът \mbox{\hyperlink{class_book}{Book}} съдържа данни за една книга в библиотека като съдържа\+: Заглавие Автор Жанр Резюме Годината, в която е написана Ключови думи Рейтинг Уникален номер за библиотеката  
+
+
+
+
+{\ttfamily \#include $<$Book.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_book_a2eac9e235a08763158f78533f7a83e1f}{Book}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_book}{Book}}\+:\+: \mbox{\hyperlink{class_book}{Book}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_book_af65879fe192bb0f4fd725b2b85eeaaeb}{Book}} (const \mbox{\hyperlink{class_book}{Book}} \&)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_book}{Book}}\+:\+: \mbox{\hyperlink{class_book}{Book}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_book}{Book}} \& \mbox{\hyperlink{class_book_abb6cfa5c809d2aa8b7459af830bd81f7}{operator=}} (const \mbox{\hyperlink{class_book}{Book}} \&)
+\item 
+\mbox{\hyperlink{class_book_a0ba8eceb34ea1301bc08942e37824767}{$\sim$\+Book}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_book}{Book}}\+:\+: \mbox{\hyperlink{class_book}{Book}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_book_a41f99d65f8c29f82b42089bd041421b1}{Book}} (const char $\ast$, const char $\ast$, const char $\ast$, const char $\ast$, const int, const char $\ast$, const double, const int)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_book}{Book}}\+:\+: \mbox{\hyperlink{class_book}{Book}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_a2c2873ebc2934f5597c47b4e43aa500e}{set\+Author}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната author. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_ac1d9659e82b6d473421c7c7488291273}{set\+Title}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната title. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_aab6fce679a67b5722a162b97ee91fac4}{set\+Genre}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната genre. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_a7e1f267cbdf984344a1227031c1701d7}{set\+Summary}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната summary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_a75267a2a4da97238a07e4e7cae034743}{set\+Year\+\_\+release}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната year\+\_\+release. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_a9e61e4a0e9aca47372a5dcbb2acd0655}{set\+Tag}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната tag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_acc5edbfce774bc4d1ef9698d7d3cb03c}{set\+Rating}} (double)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната rating. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_af84652e4193de7a3d1f610619c5e5d86}{set\+Library\+\_\+\+ID}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната library\+\_\+\+ID. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_book_acd5d108ba5d827ed4672c8f001877d01}{get\+Author}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната author. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_book_a220c8a709435b27293fa8d48b3bef8ff}{get\+Title}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната title. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_book_ac03277ed2ffef428368bb782414920a3}{get\+Genre}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната genre. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_book_a84f46da39225070f8ee65dd9425ea624}{get\+Summary}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната summary. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_book_a974b24b62c54b6e21249ba79f6260d54}{get\+Year\+\_\+release}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната year\+\_\+release. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_book_a5261cb448d300d16e4dfcc983140861e}{get\+Tag}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната tag. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_book_a4cbdb7aeb4c5403ca6c89d9f788d22c3}{get\+Rating}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната rating. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_book_a8f38e5a2b918255e4cdb69b92c0ddb17}{get\+Library\+\_\+\+ID}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната library\+\_\+\+ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_af46441a304bd9d514fc9fb0cae3536cc}{print}} () const
+\begin{DoxyCompactList}\small\item\em Принтира стойностите на член-\/данните от класа \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_aaecfa97c7679f8117f8ea166ebaa3c3b}{books\+\_\+all\+\_\+print}} () const
+\begin{DoxyCompactList}\small\item\em Помощна функция към books\+\_\+all. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_a92a2d50e02030d40ffb413c403edf655}{read}} (std\+::istream \&is, \mbox{\hyperlink{class_book}{Book}} \&book)
+\begin{DoxyCompactList}\small\item\em Четене на данни за \mbox{\hyperlink{class_book}{Book}} от файлов поток \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_book_acf701c14531d4fad7907c174f5231d30}{write}} (std\+::ostream \&os, const \mbox{\hyperlink{class_book}{Book}} \&book)
+\begin{DoxyCompactList}\small\item\em Писане на данни за \mbox{\hyperlink{class_book}{Book}} от файлов поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_book_a56cd1141057572ddc1e209bac84bb9e0}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_book}{Book}} \&b)
+\begin{DoxyCompactList}\small\item\em Оператор за извеждане на данни на \mbox{\hyperlink{class_book}{Book}} в поток \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{class_book_a7dcb6cbc8de77f65b7c8ed0a13ea4bdd}{operator$>$$>$}} (std\+::istream \&in, \mbox{\hyperlink{class_book}{Book}} \&b)
+\begin{DoxyCompactList}\small\item\em Оператор за въвеждане на данни на \mbox{\hyperlink{class_book}{Book}} в поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класът \mbox{\hyperlink{class_book}{Book}} съдържа данни за една книга в библиотека като съдържа\+: Заглавие Автор Жанр Резюме Годината, в която е написана Ключови думи Рейтинг Уникален номер за библиотеката 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_book_a2eac9e235a08763158f78533f7a83e1f}\label{class_book_a2eac9e235a08763158f78533f7a83e1f}} 
+\index{Book@{Book}!Book@{Book}}
+\index{Book@{Book}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{Book()}{Book()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Book\+::\+Book (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_book}{Book}}\+:\+: \mbox{\hyperlink{class_book}{Book}} object. 
+
+\mbox{\Hypertarget{class_book_af65879fe192bb0f4fd725b2b85eeaaeb}\label{class_book_af65879fe192bb0f4fd725b2b85eeaaeb}} 
+\index{Book@{Book}!Book@{Book}}
+\index{Book@{Book}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{Book()}{Book()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Book\+::\+Book (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_book}{Book}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_book}{Book}}\+:\+: \mbox{\hyperlink{class_book}{Book}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_a0ba8eceb34ea1301bc08942e37824767}\label{class_book_a0ba8eceb34ea1301bc08942e37824767}} 
+\index{Book@{Book}!````~Book@{$\sim$Book}}
+\index{````~Book@{$\sim$Book}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{$\sim$Book()}{~Book()}}
+{\footnotesize\ttfamily Book\+::$\sim$\+Book (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_book}{Book}}\+:\+: \mbox{\hyperlink{class_book}{Book}} object. 
+
+\mbox{\Hypertarget{class_book_a41f99d65f8c29f82b42089bd041421b1}\label{class_book_a41f99d65f8c29f82b42089bd041421b1}} 
+\index{Book@{Book}!Book@{Book}}
+\index{Book@{Book}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{Book()}{Book()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Book\+::\+Book (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+title,  }\item[{const char $\ast$}]{\+\_\+author,  }\item[{const char $\ast$}]{\+\_\+genre,  }\item[{const char $\ast$}]{\+\_\+summary,  }\item[{const int}]{\+\_\+year\+\_\+release,  }\item[{const char $\ast$}]{\+\_\+tag,  }\item[{const double}]{\+\_\+rating,  }\item[{const int}]{\+\_\+library\+\_\+\+ID }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_book}{Book}}\+:\+: \mbox{\hyperlink{class_book}{Book}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+title} & \\
+\hline
+{\em \+\_\+author} & \\
+\hline
+{\em \+\_\+genre} & \\
+\hline
+{\em \+\_\+summary} & \\
+\hline
+{\em \+\_\+year\+\_\+release} & \\
+\hline
+{\em \+\_\+tag} & \\
+\hline
+{\em \+\_\+rating} & \\
+\hline
+{\em \+\_\+library\+\_\+\+ID} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_book_aaecfa97c7679f8117f8ea166ebaa3c3b}\label{class_book_aaecfa97c7679f8117f8ea166ebaa3c3b}} 
+\index{Book@{Book}!books\_all\_print@{books\_all\_print}}
+\index{books\_all\_print@{books\_all\_print}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{books\_all\_print()}{books\_all\_print()}}
+{\footnotesize\ttfamily void Book\+::books\+\_\+all\+\_\+print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Помощна функция към books\+\_\+all. 
+
+\mbox{\Hypertarget{class_book_acd5d108ba5d827ed4672c8f001877d01}\label{class_book_acd5d108ba5d827ed4672c8f001877d01}} 
+\index{Book@{Book}!getAuthor@{getAuthor}}
+\index{getAuthor@{getAuthor}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getAuthor()}{getAuthor()}}
+{\footnotesize\ttfamily char $\ast$ Book\+::get\+Author (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната author. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_ac03277ed2ffef428368bb782414920a3}\label{class_book_ac03277ed2ffef428368bb782414920a3}} 
+\index{Book@{Book}!getGenre@{getGenre}}
+\index{getGenre@{getGenre}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getGenre()}{getGenre()}}
+{\footnotesize\ttfamily char $\ast$ Book\+::get\+Genre (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната genre. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_a8f38e5a2b918255e4cdb69b92c0ddb17}\label{class_book_a8f38e5a2b918255e4cdb69b92c0ddb17}} 
+\index{Book@{Book}!getLibrary\_ID@{getLibrary\_ID}}
+\index{getLibrary\_ID@{getLibrary\_ID}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getLibrary\_ID()}{getLibrary\_ID()}}
+{\footnotesize\ttfamily int Book\+::get\+Library\+\_\+\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната library\+\_\+\+ID. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_a4cbdb7aeb4c5403ca6c89d9f788d22c3}\label{class_book_a4cbdb7aeb4c5403ca6c89d9f788d22c3}} 
+\index{Book@{Book}!getRating@{getRating}}
+\index{getRating@{getRating}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getRating()}{getRating()}}
+{\footnotesize\ttfamily double Book\+::get\+Rating (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната rating. 
+
+\begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_a84f46da39225070f8ee65dd9425ea624}\label{class_book_a84f46da39225070f8ee65dd9425ea624}} 
+\index{Book@{Book}!getSummary@{getSummary}}
+\index{getSummary@{getSummary}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getSummary()}{getSummary()}}
+{\footnotesize\ttfamily char $\ast$ Book\+::get\+Summary (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната summary. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_a5261cb448d300d16e4dfcc983140861e}\label{class_book_a5261cb448d300d16e4dfcc983140861e}} 
+\index{Book@{Book}!getTag@{getTag}}
+\index{getTag@{getTag}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getTag()}{getTag()}}
+{\footnotesize\ttfamily char $\ast$ Book\+::get\+Tag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната tag. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_a220c8a709435b27293fa8d48b3bef8ff}\label{class_book_a220c8a709435b27293fa8d48b3bef8ff}} 
+\index{Book@{Book}!getTitle@{getTitle}}
+\index{getTitle@{getTitle}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getTitle()}{getTitle()}}
+{\footnotesize\ttfamily char $\ast$ Book\+::get\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната title. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_a974b24b62c54b6e21249ba79f6260d54}\label{class_book_a974b24b62c54b6e21249ba79f6260d54}} 
+\index{Book@{Book}!getYear\_release@{getYear\_release}}
+\index{getYear\_release@{getYear\_release}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getYear\_release()}{getYear\_release()}}
+{\footnotesize\ttfamily int Book\+::get\+Year\+\_\+release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната year\+\_\+release. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_abb6cfa5c809d2aa8b7459af830bd81f7}\label{class_book_abb6cfa5c809d2aa8b7459af830bd81f7}} 
+\index{Book@{Book}!operator=@{operator=}}
+\index{operator=@{operator=}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_book}{Book}} \& Book\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_book}{Book}} \&}]{other }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_book}{Book}}\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_af46441a304bd9d514fc9fb0cae3536cc}\label{class_book_af46441a304bd9d514fc9fb0cae3536cc}} 
+\index{Book@{Book}!print@{print}}
+\index{print@{print}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Book\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Принтира стойностите на член-\/данните от класа 
+
+\mbox{\Hypertarget{class_book_a92a2d50e02030d40ffb413c403edf655}\label{class_book_a92a2d50e02030d40ffb413c403edf655}} 
+\index{Book@{Book}!read@{read}}
+\index{read@{read}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily void Book\+::read (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{class_book}{Book}} \&}]{book }\end{DoxyParamCaption})}
+
+
+
+Четене на данни за \mbox{\hyperlink{class_book}{Book}} от файлов поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em book} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_a2c2873ebc2934f5597c47b4e43aa500e}\label{class_book_a2c2873ebc2934f5597c47b4e43aa500e}} 
+\index{Book@{Book}!setAuthor@{setAuthor}}
+\index{setAuthor@{setAuthor}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setAuthor()}{setAuthor()}}
+{\footnotesize\ttfamily void Book\+::set\+Author (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+author }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната author. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+author} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_aab6fce679a67b5722a162b97ee91fac4}\label{class_book_aab6fce679a67b5722a162b97ee91fac4}} 
+\index{Book@{Book}!setGenre@{setGenre}}
+\index{setGenre@{setGenre}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setGenre()}{setGenre()}}
+{\footnotesize\ttfamily void Book\+::set\+Genre (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+genre }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната genre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+genre} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_af84652e4193de7a3d1f610619c5e5d86}\label{class_book_af84652e4193de7a3d1f610619c5e5d86}} 
+\index{Book@{Book}!setLibrary\_ID@{setLibrary\_ID}}
+\index{setLibrary\_ID@{setLibrary\_ID}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setLibrary\_ID()}{setLibrary\_ID()}}
+{\footnotesize\ttfamily void Book\+::set\+Library\+\_\+\+ID (\begin{DoxyParamCaption}\item[{int}]{\+\_\+library\+\_\+\+ID }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната library\+\_\+\+ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+library\+\_\+\+ID} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_acc5edbfce774bc4d1ef9698d7d3cb03c}\label{class_book_acc5edbfce774bc4d1ef9698d7d3cb03c}} 
+\index{Book@{Book}!setRating@{setRating}}
+\index{setRating@{setRating}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setRating()}{setRating()}}
+{\footnotesize\ttfamily void Book\+::set\+Rating (\begin{DoxyParamCaption}\item[{double}]{\+\_\+rating }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната rating. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+rating} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_a7e1f267cbdf984344a1227031c1701d7}\label{class_book_a7e1f267cbdf984344a1227031c1701d7}} 
+\index{Book@{Book}!setSummary@{setSummary}}
+\index{setSummary@{setSummary}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setSummary()}{setSummary()}}
+{\footnotesize\ttfamily void Book\+::set\+Summary (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+summary }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната summary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+summary} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_a9e61e4a0e9aca47372a5dcbb2acd0655}\label{class_book_a9e61e4a0e9aca47372a5dcbb2acd0655}} 
+\index{Book@{Book}!setTag@{setTag}}
+\index{setTag@{setTag}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setTag()}{setTag()}}
+{\footnotesize\ttfamily void Book\+::set\+Tag (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+tag }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната tag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+tag} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_ac1d9659e82b6d473421c7c7488291273}\label{class_book_ac1d9659e82b6d473421c7c7488291273}} 
+\index{Book@{Book}!setTitle@{setTitle}}
+\index{setTitle@{setTitle}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setTitle()}{setTitle()}}
+{\footnotesize\ttfamily void Book\+::set\+Title (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+title }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната title. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+title} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_a75267a2a4da97238a07e4e7cae034743}\label{class_book_a75267a2a4da97238a07e4e7cae034743}} 
+\index{Book@{Book}!setYear\_release@{setYear\_release}}
+\index{setYear\_release@{setYear\_release}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setYear\_release()}{setYear\_release()}}
+{\footnotesize\ttfamily void Book\+::set\+Year\+\_\+release (\begin{DoxyParamCaption}\item[{int}]{\+\_\+year\+\_\+release }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната year\+\_\+release. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+year\+\_\+release} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_book_acf701c14531d4fad7907c174f5231d30}\label{class_book_acf701c14531d4fad7907c174f5231d30}} 
+\index{Book@{Book}!write@{write}}
+\index{write@{write}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void Book\+::write (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_book}{Book}} \&}]{book }\end{DoxyParamCaption})}
+
+
+
+Писане на данни за \mbox{\hyperlink{class_book}{Book}} от файлов поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em book} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_book_a56cd1141057572ddc1e209bac84bb9e0}\label{class_book_a56cd1141057572ddc1e209bac84bb9e0}} 
+\index{Book@{Book}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_book}{Book}} \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за извеждане на данни на \mbox{\hyperlink{class_book}{Book}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_book_a7dcb6cbc8de77f65b7c8ed0a13ea4bdd}\label{class_book_a7dcb6cbc8de77f65b7c8ed0a13ea4bdd}} 
+\index{Book@{Book}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\mbox{\hyperlink{class_book}{Book}} \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за въвеждане на данни на \mbox{\hyperlink{class_book}{Book}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & \\
+\hline
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Code/\mbox{\hyperlink{_book_8h}{Book.\+h}}\item 
+Code/\mbox{\hyperlink{_book_8cpp}{Book.\+cpp}}\end{DoxyCompactItemize}

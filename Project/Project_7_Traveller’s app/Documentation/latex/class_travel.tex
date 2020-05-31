@@ -1,0 +1,457 @@
+\hypertarget{class_travel}{}\doxysection{Travel Class Reference}
+\label{class_travel}\index{Travel@{Travel}}
+
+
+Класът \mbox{\hyperlink{class_travel}{Travel}} съдържа данни за едно пътуване на потребител от приложението като съдържа\+: Дестинация Времеви период Рейтинг Коментари Снимки  
+
+
+
+
+{\ttfamily \#include $<$Travel.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_travel_acc3bc73b916e588699d18ba7d4bb25c2}{Travel}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_travel}{Travel}}\+:\+: \mbox{\hyperlink{class_travel}{Travel}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_travel_ab7da1c90d0dcae53852058591ad0cfab}{Travel}} (const \mbox{\hyperlink{class_travel}{Travel}} \&)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_travel}{Travel}}\+:\+: \mbox{\hyperlink{class_travel}{Travel}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_travel}{Travel}} \& \mbox{\hyperlink{class_travel_a11615b14b2f6fe35cb637be6f5b65544}{operator=}} (const \mbox{\hyperlink{class_travel}{Travel}} \&)
+\item 
+\mbox{\hyperlink{class_travel_a31a118dac93f7ef4ede97e23f850680f}{$\sim$\+Travel}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_travel}{Travel}}\+:\+: \mbox{\hyperlink{class_travel}{Travel}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_travel_a893d14dd8b8c233f0cc67c32d20d5875}{Travel}} (const char $\ast$, const char $\ast$, const int, const char $\ast$, const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_travel}{Travel}}\+:\+: \mbox{\hyperlink{class_travel}{Travel}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travel_a1bca3fc730dd3e6c4fb8d44c7ab62fe1}{set\+Destination}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната destination. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travel_ac1a9bd2cb46d257d592cfed56e95953f}{set\+Duration}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната duration. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travel_aa573f5b1f636c4d28b3a4223f84844d1}{set\+Comment}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната comment. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travel_a011c13d454f6750d2047ffeeb292d2ce}{set\+Rating}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната rating. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travel_a40e53b256bdaff2a4ec7b67a960224f4}{set\+Photos}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната photos. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_travel_a71a463dbc3ea551cf9e0bf592a03e148}{get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната destination. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_travel_a75d52466c9011a1904f2f94cda359470}{get\+Duration}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната duration. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_travel_a606a903b5a84480e43d6f2d2bee68bb6}{get\+Comment}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната comment. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_travel_a646ec90cbb07cddbbe7833131f2f873e}{get\+Rating}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната rating. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_travel_a0de59573e54327b6320382673e1c80d2}{get\+Photos}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната photos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travel_a1a4f50174bbdcbd8165f47c81dfed117}{print}} () const
+\begin{DoxyCompactList}\small\item\em Принтира стойностите на член-\/данните от класа \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travel_a7cf41c53d5e8a6532a9dc72e2f6c4d25}{read}} (std\+::istream \&is, \mbox{\hyperlink{class_travel}{Travel}} \&travel)
+\begin{DoxyCompactList}\small\item\em Четене на данни за \mbox{\hyperlink{class_travel}{Travel}} от файлов поток \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travel_a53ae5493b40a1d5066808a1bc92017e0}{write}} (std\+::ostream \&os, const \mbox{\hyperlink{class_travel}{Travel}} \&travel)
+\begin{DoxyCompactList}\small\item\em Писане на данни за \mbox{\hyperlink{class_travel}{Travel}} от файлов поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_travel_a723e05305a029736b013a09d5cd1d15a}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_travel}{Travel}} \&t)
+\begin{DoxyCompactList}\small\item\em Оператор за извеждане на данни на \mbox{\hyperlink{class_travel}{Travel}} в поток \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{class_travel_a9fc439a33118dd9c7fbdbaa897bf3eb9}{operator$>$$>$}} (std\+::istream \&in, \mbox{\hyperlink{class_travel}{Travel}} \&t)
+\begin{DoxyCompactList}\small\item\em Оператор за въвеждане на данни на \mbox{\hyperlink{class_travel}{Travel}} в поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класът \mbox{\hyperlink{class_travel}{Travel}} съдържа данни за едно пътуване на потребител от приложението като съдържа\+: Дестинация Времеви период Рейтинг Коментари Снимки 
+
+
+
+Definition at line 14 of file Travel.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_travel_acc3bc73b916e588699d18ba7d4bb25c2}\label{class_travel_acc3bc73b916e588699d18ba7d4bb25c2}} 
+\index{Travel@{Travel}!Travel@{Travel}}
+\index{Travel@{Travel}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{Travel()}{Travel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Travel\+::\+Travel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_travel}{Travel}}\+:\+: \mbox{\hyperlink{class_travel}{Travel}} object. 
+
+
+
+Definition at line 31 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_ab7da1c90d0dcae53852058591ad0cfab}\label{class_travel_ab7da1c90d0dcae53852058591ad0cfab}} 
+\index{Travel@{Travel}!Travel@{Travel}}
+\index{Travel@{Travel}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{Travel()}{Travel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Travel\+::\+Travel (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_travel}{Travel}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_travel}{Travel}}\+:\+: \mbox{\hyperlink{class_travel}{Travel}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 46 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a31a118dac93f7ef4ede97e23f850680f}\label{class_travel_a31a118dac93f7ef4ede97e23f850680f}} 
+\index{Travel@{Travel}!````~Travel@{$\sim$Travel}}
+\index{````~Travel@{$\sim$Travel}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{$\sim$Travel()}{~Travel()}}
+{\footnotesize\ttfamily Travel\+::$\sim$\+Travel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_travel}{Travel}}\+:\+: \mbox{\hyperlink{class_travel}{Travel}} object. 
+
+
+
+Definition at line 73 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a893d14dd8b8c233f0cc67c32d20d5875}\label{class_travel_a893d14dd8b8c233f0cc67c32d20d5875}} 
+\index{Travel@{Travel}!Travel@{Travel}}
+\index{Travel@{Travel}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{Travel()}{Travel()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Travel\+::\+Travel (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+destination,  }\item[{const char $\ast$}]{\+\_\+duration,  }\item[{const int}]{\+\_\+rating,  }\item[{const char $\ast$}]{\+\_\+comment,  }\item[{const char $\ast$}]{\+\_\+photos }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_travel}{Travel}}\+:\+: \mbox{\hyperlink{class_travel}{Travel}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+destination} & \\
+\hline
+{\em \+\_\+duration} & \\
+\hline
+{\em \+\_\+rating} & \\
+\hline
+{\em \+\_\+comment} & \\
+\hline
+{\em \+\_\+photos} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 88 of file Travel.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_travel_a606a903b5a84480e43d6f2d2bee68bb6}\label{class_travel_a606a903b5a84480e43d6f2d2bee68bb6}} 
+\index{Travel@{Travel}!getComment@{getComment}}
+\index{getComment@{getComment}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{getComment()}{getComment()}}
+{\footnotesize\ttfamily char $\ast$ Travel\+::get\+Comment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната comment. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 197 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a71a463dbc3ea551cf9e0bf592a03e148}\label{class_travel_a71a463dbc3ea551cf9e0bf592a03e148}} 
+\index{Travel@{Travel}!getDestination@{getDestination}}
+\index{getDestination@{getDestination}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{getDestination()}{getDestination()}}
+{\footnotesize\ttfamily char $\ast$ Travel\+::get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната destination. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 175 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a75d52466c9011a1904f2f94cda359470}\label{class_travel_a75d52466c9011a1904f2f94cda359470}} 
+\index{Travel@{Travel}!getDuration@{getDuration}}
+\index{getDuration@{getDuration}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{getDuration()}{getDuration()}}
+{\footnotesize\ttfamily char $\ast$ Travel\+::get\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната duration. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 186 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a0de59573e54327b6320382673e1c80d2}\label{class_travel_a0de59573e54327b6320382673e1c80d2}} 
+\index{Travel@{Travel}!getPhotos@{getPhotos}}
+\index{getPhotos@{getPhotos}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{getPhotos()}{getPhotos()}}
+{\footnotesize\ttfamily char $\ast$ Travel\+::get\+Photos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната photos. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 219 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a646ec90cbb07cddbbe7833131f2f873e}\label{class_travel_a646ec90cbb07cddbbe7833131f2f873e}} 
+\index{Travel@{Travel}!getRating@{getRating}}
+\index{getRating@{getRating}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{getRating()}{getRating()}}
+{\footnotesize\ttfamily int Travel\+::get\+Rating (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната rating. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 208 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a11615b14b2f6fe35cb637be6f5b65544}\label{class_travel_a11615b14b2f6fe35cb637be6f5b65544}} 
+\index{Travel@{Travel}!operator=@{operator=}}
+\index{operator=@{operator=}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_travel}{Travel}} \& Travel\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_travel}{Travel}} \&}]{other }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_travel}{Travel}}\& 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a1a4f50174bbdcbd8165f47c81dfed117}\label{class_travel_a1a4f50174bbdcbd8165f47c81dfed117}} 
+\index{Travel@{Travel}!print@{print}}
+\index{print@{print}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Travel\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Принтира стойностите на член-\/данните от класа 
+
+
+
+Definition at line 229 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a7cf41c53d5e8a6532a9dc72e2f6c4d25}\label{class_travel_a7cf41c53d5e8a6532a9dc72e2f6c4d25}} 
+\index{Travel@{Travel}!read@{read}}
+\index{read@{read}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily void Travel\+::read (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{class_travel}{Travel}} \&}]{travel }\end{DoxyParamCaption})}
+
+
+
+Четене на данни за \mbox{\hyperlink{class_travel}{Travel}} от файлов поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em travel} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 292 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_aa573f5b1f636c4d28b3a4223f84844d1}\label{class_travel_aa573f5b1f636c4d28b3a4223f84844d1}} 
+\index{Travel@{Travel}!setComment@{setComment}}
+\index{setComment@{setComment}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{setComment()}{setComment()}}
+{\footnotesize\ttfamily void Travel\+::set\+Comment (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+comment }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната comment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+comment} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 137 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a1bca3fc730dd3e6c4fb8d44c7ab62fe1}\label{class_travel_a1bca3fc730dd3e6c4fb8d44c7ab62fe1}} 
+\index{Travel@{Travel}!setDestination@{setDestination}}
+\index{setDestination@{setDestination}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{setDestination()}{setDestination()}}
+{\footnotesize\ttfamily void Travel\+::set\+Destination (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+destination }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната destination. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+destination} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 111 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_ac1a9bd2cb46d257d592cfed56e95953f}\label{class_travel_ac1a9bd2cb46d257d592cfed56e95953f}} 
+\index{Travel@{Travel}!setDuration@{setDuration}}
+\index{setDuration@{setDuration}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{setDuration()}{setDuration()}}
+{\footnotesize\ttfamily void Travel\+::set\+Duration (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+duration }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната duration. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+duration} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 124 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a40e53b256bdaff2a4ec7b67a960224f4}\label{class_travel_a40e53b256bdaff2a4ec7b67a960224f4}} 
+\index{Travel@{Travel}!setPhotos@{setPhotos}}
+\index{setPhotos@{setPhotos}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{setPhotos()}{setPhotos()}}
+{\footnotesize\ttfamily void Travel\+::set\+Photos (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+photos }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната photos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+photos} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 161 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a011c13d454f6750d2047ffeeb292d2ce}\label{class_travel_a011c13d454f6750d2047ffeeb292d2ce}} 
+\index{Travel@{Travel}!setRating@{setRating}}
+\index{setRating@{setRating}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{setRating()}{setRating()}}
+{\footnotesize\ttfamily void Travel\+::set\+Rating (\begin{DoxyParamCaption}\item[{int}]{\+\_\+rating }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната rating. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+rating} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 150 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a53ae5493b40a1d5066808a1bc92017e0}\label{class_travel_a53ae5493b40a1d5066808a1bc92017e0}} 
+\index{Travel@{Travel}!write@{write}}
+\index{write@{write}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void Travel\+::write (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_travel}{Travel}} \&}]{travel }\end{DoxyParamCaption})}
+
+
+
+Писане на данни за \mbox{\hyperlink{class_travel}{Travel}} от файлов поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em travel} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 314 of file Travel.\+cpp.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_travel_a723e05305a029736b013a09d5cd1d15a}\label{class_travel_a723e05305a029736b013a09d5cd1d15a}} 
+\index{Travel@{Travel}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_travel}{Travel}} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за извеждане на данни на \mbox{\hyperlink{class_travel}{Travel}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em t} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+
+
+Definition at line 251 of file Travel.\+cpp.
+
+\mbox{\Hypertarget{class_travel_a9fc439a33118dd9c7fbdbaa897bf3eb9}\label{class_travel_a9fc439a33118dd9c7fbdbaa897bf3eb9}} 
+\index{Travel@{Travel}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Travel@{Travel}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\mbox{\hyperlink{class_travel}{Travel}} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за въвеждане на данни на \mbox{\hyperlink{class_travel}{Travel}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & \\
+\hline
+{\em t} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+Definition at line 265 of file Travel.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_travel_8h}{Travel.\+h}}\item 
+\mbox{\hyperlink{_travel_8cpp}{Travel.\+cpp}}\end{DoxyCompactItemize}

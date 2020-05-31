@@ -1,0 +1,370 @@
+\hypertarget{class_travellers__app}{}\doxysection{Travellers\+\_\+app Class Reference}
+\label{class_travellers__app}\index{Travellers\_app@{Travellers\_app}}
+
+
+Класът \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} съдържа данни за приложение, което има пътувания и потребители  
+
+
+
+
+{\ttfamily \#include $<$Travellers\+\_\+app.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}{Travellers\+\_\+app}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}{Travellers\+\_\+app\+::\+Travellers\+\_\+app}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_travellers__app_aa90a149321cafe7ececce1de70ff69c1}{Travellers\+\_\+app}} (const \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \&)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}{Travellers\+\_\+app\+::\+Travellers\+\_\+app}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \& \mbox{\hyperlink{class_travellers__app_a47d1e3d86747dfa6606051fdb7190b75}{operator=}} (const \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \&)
+\item 
+\mbox{\hyperlink{class_travellers__app_a2aa489d497c15d1a394bcc9dc4dfd1de}{$\sim$\+Travellers\+\_\+app}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}{Travellers\+\_\+app\+::\+Travellers\+\_\+app}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_a7721ec02c705789197b003e4e816e8a7}{set\+Capacity\+\_\+users}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+users. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_travellers__app_a47b65e7bcfa8ae1c454214c8e4ca11f8}{get\+Capacity\+\_\+users}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната capacity\+\_\+users. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_a26b5ace8d29842d85061e90543f277fb}{resize\+Users}} ()
+\begin{DoxyCompactList}\small\item\em Функция, която увеличава размера на capacity\+\_\+users, ако няма повече място за нови потребители \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_a485e8ae009db5d1dc88ba41eb1dce069}{users\+\_\+add}} (\mbox{\hyperlink{class_user}{User}})
+\begin{DoxyCompactList}\small\item\em Функция, която добавя потребител в масива users на приложението \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_a8e02569179873b804d0a642ea704c873}{users\+\_\+remove}} (const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Функция, която премахва потребител в масива users на приложението \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_user}{User}} $\ast$ \mbox{\hyperlink{class_travellers__app_aa0461c36a5d850b674ce0833ee34ab61}{get\+Users}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ масива users. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_ac1696c7ba98ee27c3279c84a642c81cf}{login}} (const char $\ast$, const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Функция за влизане на профил в приложението \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_a45a6071925112803e5d9226926eadb97}{logout}} ()
+\begin{DoxyCompactList}\small\item\em Функция за излизане на профил от приложението \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_ae963626c0fc86c97d679ae880404c723}{print}} () const
+\begin{DoxyCompactList}\small\item\em Принтира стойностите на член-\/данните от класа \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_a82b0d812e9c02324e0aae3002b893301}{read}} ()
+\begin{DoxyCompactList}\small\item\em Четене на данни за \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} от файлов поток \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_travellers__app_a8d79e018b9e0d27f6270946be872ff59}{save}} () const
+\begin{DoxyCompactList}\small\item\em Запазване на данни за \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} от файлов поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_travellers__app_adf20301f5e0e95ed0c5203dce2082c7b}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \&ap)
+\begin{DoxyCompactList}\small\item\em Оператор за извеждане на данни на \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} в поток \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{class_travellers__app_ad31e0b4dd87c718d42c1e6e70584efdb}{operator$>$$>$}} (std\+::istream \&in, \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \&ap)
+\begin{DoxyCompactList}\small\item\em Оператор за въвеждане на данни на \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} в поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класът \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} съдържа данни за приложение, което има пътувания и потребители 
+
+
+
+Definition at line 12 of file Travellers\+\_\+app.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}\label{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}} 
+\index{Travellers\_app@{Travellers\_app}!Travellers\_app@{Travellers\_app}}
+\index{Travellers\_app@{Travellers\_app}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{Travellers\_app()}{Travellers\_app()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Travellers\+\_\+app\+::\+Travellers\+\_\+app (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}{Travellers\+\_\+app\+::\+Travellers\+\_\+app}} object. 
+
+
+
+Definition at line 26 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_aa90a149321cafe7ececce1de70ff69c1}\label{class_travellers__app_aa90a149321cafe7ececce1de70ff69c1}} 
+\index{Travellers\_app@{Travellers\_app}!Travellers\_app@{Travellers\_app}}
+\index{Travellers\_app@{Travellers\_app}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{Travellers\_app()}{Travellers\_app()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Travellers\+\_\+app\+::\+Travellers\+\_\+app (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}{Travellers\+\_\+app\+::\+Travellers\+\_\+app}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a2aa489d497c15d1a394bcc9dc4dfd1de}\label{class_travellers__app_a2aa489d497c15d1a394bcc9dc4dfd1de}} 
+\index{Travellers\_app@{Travellers\_app}!````~Travellers\_app@{$\sim$Travellers\_app}}
+\index{````~Travellers\_app@{$\sim$Travellers\_app}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{$\sim$Travellers\_app()}{~Travellers\_app()}}
+{\footnotesize\ttfamily Travellers\+\_\+app\+::$\sim$\+Travellers\+\_\+app (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_travellers__app_acf241b7c1b125bcceba6730a2dda84e2}{Travellers\+\_\+app\+::\+Travellers\+\_\+app}} object. 
+
+
+
+Definition at line 65 of file Travellers\+\_\+app.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_travellers__app_a47b65e7bcfa8ae1c454214c8e4ca11f8}\label{class_travellers__app_a47b65e7bcfa8ae1c454214c8e4ca11f8}} 
+\index{Travellers\_app@{Travellers\_app}!getCapacity\_users@{getCapacity\_users}}
+\index{getCapacity\_users@{getCapacity\_users}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{getCapacity\_users()}{getCapacity\_users()}}
+{\footnotesize\ttfamily int Travellers\+\_\+app\+::get\+Capacity\+\_\+users (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната capacity\+\_\+users. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 87 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_aa0461c36a5d850b674ce0833ee34ab61}\label{class_travellers__app_aa0461c36a5d850b674ce0833ee34ab61}} 
+\index{Travellers\_app@{Travellers\_app}!getUsers@{getUsers}}
+\index{getUsers@{getUsers}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{getUsers()}{getUsers()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_user}{User}} $\ast$ Travellers\+\_\+app\+::get\+Users (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ масива users. 
+
+\begin{DoxyReturn}{Returns}
+User$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 159 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_ac1696c7ba98ee27c3279c84a642c81cf}\label{class_travellers__app_ac1696c7ba98ee27c3279c84a642c81cf}} 
+\index{Travellers\_app@{Travellers\_app}!login@{login}}
+\index{login@{login}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::login (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+username,  }\item[{const char $\ast$}]{\+\_\+password }\end{DoxyParamCaption})}
+
+
+
+Функция за влизане на профил в приложението 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+username} & \\
+\hline
+{\em \+\_\+password} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 171 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a45a6071925112803e5d9226926eadb97}\label{class_travellers__app_a45a6071925112803e5d9226926eadb97}} 
+\index{Travellers\_app@{Travellers\_app}!logout@{logout}}
+\index{logout@{logout}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{logout()}{logout()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::logout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция за излизане на профил от приложението 
+
+
+
+Definition at line 194 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a47d1e3d86747dfa6606051fdb7190b75}\label{class_travellers__app_a47d1e3d86747dfa6606051fdb7190b75}} 
+\index{Travellers\_app@{Travellers\_app}!operator=@{operator=}}
+\index{operator=@{operator=}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \& Travellers\+\_\+app\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \&}]{other }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}}\& 
+\end{DoxyReturn}
+
+
+Definition at line 50 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_ae963626c0fc86c97d679ae880404c723}\label{class_travellers__app_ae963626c0fc86c97d679ae880404c723}} 
+\index{Travellers\_app@{Travellers\_app}!print@{print}}
+\index{print@{print}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Принтира стойностите на член-\/данните от класа 
+
+
+
+Definition at line 205 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a82b0d812e9c02324e0aae3002b893301}\label{class_travellers__app_a82b0d812e9c02324e0aae3002b893301}} 
+\index{Travellers\_app@{Travellers\_app}!read@{read}}
+\index{read@{read}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Четене на данни за \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} от файлов поток 
+
+
+
+Definition at line 261 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a26b5ace8d29842d85061e90543f277fb}\label{class_travellers__app_a26b5ace8d29842d85061e90543f277fb}} 
+\index{Travellers\_app@{Travellers\_app}!resizeUsers@{resizeUsers}}
+\index{resizeUsers@{resizeUsers}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{resizeUsers()}{resizeUsers()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::resize\+Users (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция, която увеличава размера на capacity\+\_\+users, ако няма повече място за нови потребители 
+
+
+
+Definition at line 97 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a8d79e018b9e0d27f6270946be872ff59}\label{class_travellers__app_a8d79e018b9e0d27f6270946be872ff59}} 
+\index{Travellers\_app@{Travellers\_app}!save@{save}}
+\index{save@{save}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Запазване на данни за \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} от файлов поток 
+
+
+
+Definition at line 282 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a7721ec02c705789197b003e4e816e8a7}\label{class_travellers__app_a7721ec02c705789197b003e4e816e8a7}} 
+\index{Travellers\_app@{Travellers\_app}!setCapacity\_users@{setCapacity\_users}}
+\index{setCapacity\_users@{setCapacity\_users}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{setCapacity\_users()}{setCapacity\_users()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::set\+Capacity\+\_\+users (\begin{DoxyParamCaption}\item[{int}]{\+\_\+capacity\+\_\+users }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+capacity\+\_\+users} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 76 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a485e8ae009db5d1dc88ba41eb1dce069}\label{class_travellers__app_a485e8ae009db5d1dc88ba41eb1dce069}} 
+\index{Travellers\_app@{Travellers\_app}!users\_add@{users\_add}}
+\index{users\_add@{users\_add}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{users\_add()}{users\_add()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::users\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Функция, която добавя потребител в масива users на приложението 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 120 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_a8e02569179873b804d0a642ea704c873}\label{class_travellers__app_a8e02569179873b804d0a642ea704c873}} 
+\index{Travellers\_app@{Travellers\_app}!users\_remove@{users\_remove}}
+\index{users\_remove@{users\_remove}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{users\_remove()}{users\_remove()}}
+{\footnotesize\ttfamily void Travellers\+\_\+app\+::users\+\_\+remove (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+username }\end{DoxyParamCaption})}
+
+
+
+Функция, която премахва потребител в масива users на приложението 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+username} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 136 of file Travellers\+\_\+app.\+cpp.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_travellers__app_adf20301f5e0e95ed0c5203dce2082c7b}\label{class_travellers__app_adf20301f5e0e95ed0c5203dce2082c7b}} 
+\index{Travellers\_app@{Travellers\_app}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \&}]{ap }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за извеждане на данни на \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em ap} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+
+
+Definition at line 223 of file Travellers\+\_\+app.\+cpp.
+
+\mbox{\Hypertarget{class_travellers__app_ad31e0b4dd87c718d42c1e6e70584efdb}\label{class_travellers__app_ad31e0b4dd87c718d42c1e6e70584efdb}} 
+\index{Travellers\_app@{Travellers\_app}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Travellers\_app@{Travellers\_app}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} \&}]{ap }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за въвеждане на данни на \mbox{\hyperlink{class_travellers__app}{Travellers\+\_\+app}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & \\
+\hline
+{\em ap} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+Definition at line 243 of file Travellers\+\_\+app.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_travellers__app_8h}{Travellers\+\_\+app.\+h}}\item 
+\mbox{\hyperlink{_travellers__app_8cpp}{Travellers\+\_\+app.\+cpp}}\end{DoxyCompactItemize}

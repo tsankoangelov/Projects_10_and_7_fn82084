@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['getadministrators_22',['getAdministrators',['../class_library.html#aac8fa45199ba143951dddac5a9a86512',1,'Library']]],
+  ['getauthor_23',['getAuthor',['../class_book.html#acd5d108ba5d827ed4672c8f001877d01',1,'Book']]],
+  ['getbooks_24',['getBooks',['../class_customer.html#ad5c68c81279c5dfcdf8e284cbe4402ef',1,'Customer']]],
+  ['getcapacity_5fadministrators_25',['getCapacity_administrators',['../class_library.html#a865284dbd70010dbffb6e3ba3a8813c0',1,'Library']]],
+  ['getcapacity_5fbooks_26',['getCapacity_books',['../class_customer.html#a484cfecd9f0da0b26a1857378e2deda3',1,'Customer']]],
+  ['getcapacity_5fcustomers_27',['getCapacity_customers',['../class_library.html#afa64df3ac076298e1d6c638d461456cf',1,'Library']]],
+  ['getcapacity_5flibrary_5fbooks_28',['getCapacity_library_books',['../class_library.html#aec01a09f249599025fd56fdca31bf7de',1,'Library']]],
+  ['getcurrent_5fadministrator_29',['getCurrent_Administrator',['../class_library.html#a044bb30e2053dbc07c2f8979a2cd205a',1,'Library']]],
+  ['getcurrent_5fcustomer_30',['getCurrent_Customer',['../class_library.html#aceefd60f23b27411abb0f5e72c176593',1,'Library']]],
+  ['getcustomers_31',['getCustomers',['../class_library.html#aaa839de9fc1b721e08aa4d209fcb7726',1,'Library']]],
+  ['getgenre_32',['getGenre',['../class_book.html#ac03277ed2ffef428368bb782414920a3',1,'Book']]],
+  ['getlibrary_5fbooks_33',['getlibrary_books',['../class_library.html#acda52a887f266490ae2ea90b15bb2e47',1,'Library']]],
+  ['getlibrary_5fid_34',['getLibrary_ID',['../class_book.html#a8f38e5a2b918255e4cdb69b92c0ddb17',1,'Book']]],
+  ['getpassword_35',['getPassword',['../class_parent.html#a2e253914fafe16f6050591319f6b063b',1,'Parent']]],
+  ['getrating_36',['getRating',['../class_book.html#a4cbdb7aeb4c5403ca6c89d9f788d22c3',1,'Book']]],
+  ['getsummary_37',['getSummary',['../class_book.html#a84f46da39225070f8ee65dd9425ea624',1,'Book']]],
+  ['gettag_38',['getTag',['../class_book.html#a5261cb448d300d16e4dfcc983140861e',1,'Book']]],
+  ['gettitle_39',['getTitle',['../class_book.html#a220c8a709435b27293fa8d48b3bef8ff',1,'Book']]],
+  ['getusername_40',['getUsername',['../class_parent.html#aabe70782ba36c274be21cf308c703fd5',1,'Parent']]],
+  ['getyear_5frelease_41',['getYear_release',['../class_book.html#a974b24b62c54b6e21249ba79f6260d54',1,'Book']]]
+];

@@ -1,0 +1,605 @@
+\hypertarget{class_library}{}\doxysection{Library Class Reference}
+\label{class_library}\index{Library@{Library}}
+
+
+{\ttfamily \#include $<$Library.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_library_a82338219d8bf51962ff5f60a0db21b19}{Library}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_library}{Library}}\+:\+: \mbox{\hyperlink{class_library}{Library}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_library_a4254d3cfa2ad5516e94858fbcdd9e5ca}{Library}} (const \mbox{\hyperlink{class_library}{Library}} \&)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_library}{Library}}\+:\+: \mbox{\hyperlink{class_library}{Library}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_library}{Library}} \& \mbox{\hyperlink{class_library_a7b4fcb900d5dc12522cf0d8f8c2d0c38}{operator=}} (const \mbox{\hyperlink{class_library}{Library}} \&)
+\item 
+\mbox{\hyperlink{class_library_a62120f28a9b50cc5b151d868e42ab936}{$\sim$\+Library}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_library}{Library}}\+:\+: \mbox{\hyperlink{class_library}{Library}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a8d21c083791e9c039fc1cdbd7161c2c8}{set\+Capacity\+\_\+library\+\_\+books}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+library\+\_\+books. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_book}{Book}} $\ast$ \mbox{\hyperlink{class_library_acda52a887f266490ae2ea90b15bb2e47}{getlibrary\+\_\+books}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ масива library\+\_\+books. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_library_aec01a09f249599025fd56fdca31bf7de}{get\+Capacity\+\_\+library\+\_\+books}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната capacity\+\_\+library\+\_\+books. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a7128f3f90817eeef6bacea779b3cbf55}{library\+\_\+books\+\_\+add}} (\mbox{\hyperlink{class_book}{Book}})
+\begin{DoxyCompactList}\small\item\em Функция, която добавя книга в масива library\+\_\+books на библиотеката \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a68969b65c02b05b0f7a8f565c24e72d0}{library\+\_\+books\+\_\+remove}} (\mbox{\hyperlink{class_book}{Book}})
+\begin{DoxyCompactList}\small\item\em Функция, която премахва книга в масива library\+\_\+books на библиотеката \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a27f800d322db4f33add55fe5aeb20762}{resizelibrary\+\_\+books}} ()
+\begin{DoxyCompactList}\small\item\em Функция, която увеличава размера на capacity\+\_\+library\+\_\+books, ако няма повече място за нови книги \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a33302e77d52a58064473d53d8ee6dfa5}{set\+Capacity\+\_\+customers}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+customers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_customer}{Customer}} $\ast$ \mbox{\hyperlink{class_library_aaa839de9fc1b721e08aa4d209fcb7726}{get\+Customers}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ масива customers. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_library_afa64df3ac076298e1d6c638d461456cf}{get\+Capacity\+\_\+customers}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната capacity\+\_\+customers. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a7101ff8a92840907fa3c68946eede6c1}{resize\+Customers}} ()
+\begin{DoxyCompactList}\small\item\em Функция, която увеличава размера на capacity\+\_\+customers, ако няма повече място за нови потребители \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_customer}{Customer}} $\ast$ \mbox{\hyperlink{class_library_aceefd60f23b27411abb0f5e72c176593}{get\+Current\+\_\+\+Customer}} () const
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната current\+\_\+customer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a87851c93d933efe786045b65c049b876}{set\+Capacity\+\_\+administrators}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+administrators. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_administrator}{Administrator}} $\ast$ \mbox{\hyperlink{class_library_aac8fa45199ba143951dddac5a9a86512}{get\+Administrators}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ масива administrators. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_library_a865284dbd70010dbffb6e3ba3a8813c0}{get\+Capacity\+\_\+administrators}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната capacity\+\_\+administrators. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a6fc6b39dd88838a8a34dc8d0766b646a}{resize\+Administrators}} ()
+\begin{DoxyCompactList}\small\item\em Функция, която увеличава размера на capacity\+\_\+administrators, ако няма повече място за нови администратори \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_administrator}{Administrator}} $\ast$ \mbox{\hyperlink{class_library_a044bb30e2053dbc07c2f8979a2cd205a}{get\+Current\+\_\+\+Administrator}} () const
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната current\+\_\+administrator. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_aa203b7db7d3bcd3d0722e63cf8373bab}{check\+Administrator}} () const
+\begin{DoxyCompactList}\small\item\em Функция, която проверява дали има влезнал администратор \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_adecc20e9cde0873a1655e3dc509bc857}{check\+Customer}} () const
+\begin{DoxyCompactList}\small\item\em Функция, която проверява дали има влезнал потребител \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_ae1febd6abee619e501189ca142c52ba5}{customers\+\_\+add}} (\mbox{\hyperlink{class_customer}{Customer}})
+\begin{DoxyCompactList}\small\item\em Функция, която добавя потребител в масива customers на библиотеката \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_ae507d966ddb50b842d326caa83dc2084}{customers\+\_\+remove}} (const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Функция, която премахва потребител в масива customers на библиотеката \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_ad72615e7c80ab253a80824d9be74bfe4}{administrators\+\_\+add}} (\mbox{\hyperlink{class_administrator}{Administrator}})
+\begin{DoxyCompactList}\small\item\em Функция, която добавя администратор в масива administrators на библиотеката \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_aa80d58d9ca7b71f62ed6e940c92bb0bd}{administrators\+\_\+remove}} (const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Функция, която премахва администратор в масива administrators на библиотеката \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_aef3dc52c527b35fb179ddd61aa75b809}{print}} () const
+\begin{DoxyCompactList}\small\item\em Принтира стойностите на член-\/данните от класа \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_afe96b15d48dd2c0a401f8dc4112f9419}{login}} (const char $\ast$, const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Функция за влизане на профил като проверява дали е потребител или администратор \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a8815dceedbbdd02f55f3b47b542ae1e1}{logout}} ()
+\begin{DoxyCompactList}\small\item\em Функция за излизане на потребител \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a01553c9df60fbe5780f14cc8f11b73e6}{books\+\_\+all}} () const
+\begin{DoxyCompactList}\small\item\em Функция, която извежда последователно за всяка книга следната информация\+: заглавие, автор, жанр,персонален номер \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_ac6300b564e59e36a97713f74d8b8b0c4}{books\+\_\+sort}} (char $\ast$, char $\ast$=\char`\"{}asc\char`\"{})
+\begin{DoxyCompactList}\small\item\em Функция, която сортира книгите в библиотеката във възходящ или низходящ ред по дадени заглавие или автор, или година, или рейтинг \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a8e016b7d6f8bc8a25234793157da784a}{books\+\_\+find}} (const char $\ast$, const char $\ast$) const
+\begin{DoxyCompactList}\small\item\em Функция, която търси книга по дадено заглавие, автор или ключова дума \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a6b2bec1a7b09c98c0640700f0d5e0ce3}{books\+\_\+info}} (const int) const
+\begin{DoxyCompactList}\small\item\em Функция, която извежда на екрана подробна информация за книга с персонален номер \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_af39d3f2615df685fa861f016d17abd95}{read}} ()
+\begin{DoxyCompactList}\small\item\em Четене на данни за \mbox{\hyperlink{class_library}{Library}} от файлов поток \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_a5bfcb1b53dcd4da7175785400ef17930}{save}} () const
+\begin{DoxyCompactList}\small\item\em Запазване на данни за \mbox{\hyperlink{class_library}{Library}} от файлов поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_library_a9c2a320cb47d3884558c6b33910e1ee3}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_library}{Library}} \&l)
+\begin{DoxyCompactList}\small\item\em Оператор за извеждане на данни на \mbox{\hyperlink{class_library}{Library}} в поток \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{class_library_ab5c1bfffbda453f4ef15c6ff64442a38}{operator$>$$>$}} (std\+::istream \&in, \mbox{\hyperlink{class_library}{Library}} \&l)
+\begin{DoxyCompactList}\small\item\em Оператор за въвеждане на данни на \mbox{\hyperlink{class_library}{Library}} в поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_library_a82338219d8bf51962ff5f60a0db21b19}\label{class_library_a82338219d8bf51962ff5f60a0db21b19}} 
+\index{Library@{Library}!Library@{Library}}
+\index{Library@{Library}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{Library()}{Library()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Library\+::\+Library (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_library}{Library}}\+:\+: \mbox{\hyperlink{class_library}{Library}} object. 
+
+\mbox{\Hypertarget{class_library_a4254d3cfa2ad5516e94858fbcdd9e5ca}\label{class_library_a4254d3cfa2ad5516e94858fbcdd9e5ca}} 
+\index{Library@{Library}!Library@{Library}}
+\index{Library@{Library}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{Library()}{Library()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Library\+::\+Library (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_library}{Library}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_library}{Library}}\+:\+: \mbox{\hyperlink{class_library}{Library}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_a62120f28a9b50cc5b151d868e42ab936}\label{class_library_a62120f28a9b50cc5b151d868e42ab936}} 
+\index{Library@{Library}!````~Library@{$\sim$Library}}
+\index{````~Library@{$\sim$Library}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{$\sim$Library()}{~Library()}}
+{\footnotesize\ttfamily Library\+::$\sim$\+Library (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_library}{Library}}\+:\+: \mbox{\hyperlink{class_library}{Library}} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_library_ad72615e7c80ab253a80824d9be74bfe4}\label{class_library_ad72615e7c80ab253a80824d9be74bfe4}} 
+\index{Library@{Library}!administrators\_add@{administrators\_add}}
+\index{administrators\_add@{administrators\_add}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{administrators\_add()}{administrators\_add()}}
+{\footnotesize\ttfamily void Library\+::administrators\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_administrator}{Administrator}}}]{administrator }\end{DoxyParamCaption})}
+
+
+
+Функция, която добавя администратор в масива administrators на библиотеката 
+
+
+\begin{DoxyParams}{Parameters}
+{\em administrator} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_aa80d58d9ca7b71f62ed6e940c92bb0bd}\label{class_library_aa80d58d9ca7b71f62ed6e940c92bb0bd}} 
+\index{Library@{Library}!administrators\_remove@{administrators\_remove}}
+\index{administrators\_remove@{administrators\_remove}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{administrators\_remove()}{administrators\_remove()}}
+{\footnotesize\ttfamily void Library\+::administrators\+\_\+remove (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+username }\end{DoxyParamCaption})}
+
+
+
+Функция, която премахва администратор в масива administrators на библиотеката 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+username} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_a01553c9df60fbe5780f14cc8f11b73e6}\label{class_library_a01553c9df60fbe5780f14cc8f11b73e6}} 
+\index{Library@{Library}!books\_all@{books\_all}}
+\index{books\_all@{books\_all}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{books\_all()}{books\_all()}}
+{\footnotesize\ttfamily void Library\+::books\+\_\+all (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Функция, която извежда последователно за всяка книга следната информация\+: заглавие, автор, жанр,персонален номер 
+
+\mbox{\Hypertarget{class_library_a8e016b7d6f8bc8a25234793157da784a}\label{class_library_a8e016b7d6f8bc8a25234793157da784a}} 
+\index{Library@{Library}!books\_find@{books\_find}}
+\index{books\_find@{books\_find}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{books\_find()}{books\_find()}}
+{\footnotesize\ttfamily void Library\+::books\+\_\+find (\begin{DoxyParamCaption}\item[{const char $\ast$}]{criteria,  }\item[{const char $\ast$}]{value }\end{DoxyParamCaption}) const}
+
+
+
+Функция, която търси книга по дадено заглавие, автор или ключова дума 
+
+
+\begin{DoxyParams}{Parameters}
+{\em criteria} & \\
+\hline
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_a6b2bec1a7b09c98c0640700f0d5e0ce3}\label{class_library_a6b2bec1a7b09c98c0640700f0d5e0ce3}} 
+\index{Library@{Library}!books\_info@{books\_info}}
+\index{books\_info@{books\_info}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{books\_info()}{books\_info()}}
+{\footnotesize\ttfamily void Library\+::books\+\_\+info (\begin{DoxyParamCaption}\item[{const int}]{\+\_\+\+ID }\end{DoxyParamCaption}) const}
+
+
+
+Функция, която извежда на екрана подробна информация за книга с персонален номер 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+\+ID} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_ac6300b564e59e36a97713f74d8b8b0c4}\label{class_library_ac6300b564e59e36a97713f74d8b8b0c4}} 
+\index{Library@{Library}!books\_sort@{books\_sort}}
+\index{books\_sort@{books\_sort}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{books\_sort()}{books\_sort()}}
+{\footnotesize\ttfamily void Library\+::books\+\_\+sort (\begin{DoxyParamCaption}\item[{char $\ast$}]{criteria,  }\item[{char $\ast$}]{order = {\ttfamily \char`\"{}asc\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Функция, която сортира книгите в библиотеката във възходящ или низходящ ред по дадени заглавие или автор, или година, или рейтинг 
+
+
+\begin{DoxyParams}{Parameters}
+{\em criteria} & \\
+\hline
+{\em order} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_aa203b7db7d3bcd3d0722e63cf8373bab}\label{class_library_aa203b7db7d3bcd3d0722e63cf8373bab}} 
+\index{Library@{Library}!checkAdministrator@{checkAdministrator}}
+\index{checkAdministrator@{checkAdministrator}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{checkAdministrator()}{checkAdministrator()}}
+{\footnotesize\ttfamily bool Library\+::check\+Administrator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Функция, която проверява дали има влезнал администратор 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_adecc20e9cde0873a1655e3dc509bc857}\label{class_library_adecc20e9cde0873a1655e3dc509bc857}} 
+\index{Library@{Library}!checkCustomer@{checkCustomer}}
+\index{checkCustomer@{checkCustomer}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{checkCustomer()}{checkCustomer()}}
+{\footnotesize\ttfamily bool Library\+::check\+Customer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Функция, която проверява дали има влезнал потребител 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_ae1febd6abee619e501189ca142c52ba5}\label{class_library_ae1febd6abee619e501189ca142c52ba5}} 
+\index{Library@{Library}!customers\_add@{customers\_add}}
+\index{customers\_add@{customers\_add}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{customers\_add()}{customers\_add()}}
+{\footnotesize\ttfamily void Library\+::customers\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_customer}{Customer}}}]{customer }\end{DoxyParamCaption})}
+
+
+
+Функция, която добавя потребител в масива customers на библиотеката 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_ae507d966ddb50b842d326caa83dc2084}\label{class_library_ae507d966ddb50b842d326caa83dc2084}} 
+\index{Library@{Library}!customers\_remove@{customers\_remove}}
+\index{customers\_remove@{customers\_remove}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{customers\_remove()}{customers\_remove()}}
+{\footnotesize\ttfamily void Library\+::customers\+\_\+remove (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+username }\end{DoxyParamCaption})}
+
+
+
+Функция, която премахва потребител в масива customers на библиотеката 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+username} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_aac8fa45199ba143951dddac5a9a86512}\label{class_library_aac8fa45199ba143951dddac5a9a86512}} 
+\index{Library@{Library}!getAdministrators@{getAdministrators}}
+\index{getAdministrators@{getAdministrators}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{getAdministrators()}{getAdministrators()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_administrator}{Administrator}} $\ast$ Library\+::get\+Administrators (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ масива administrators. 
+
+\begin{DoxyReturn}{Returns}
+Administrator$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_a865284dbd70010dbffb6e3ba3a8813c0}\label{class_library_a865284dbd70010dbffb6e3ba3a8813c0}} 
+\index{Library@{Library}!getCapacity\_administrators@{getCapacity\_administrators}}
+\index{getCapacity\_administrators@{getCapacity\_administrators}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{getCapacity\_administrators()}{getCapacity\_administrators()}}
+{\footnotesize\ttfamily int Library\+::get\+Capacity\+\_\+administrators (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната capacity\+\_\+administrators. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_afa64df3ac076298e1d6c638d461456cf}\label{class_library_afa64df3ac076298e1d6c638d461456cf}} 
+\index{Library@{Library}!getCapacity\_customers@{getCapacity\_customers}}
+\index{getCapacity\_customers@{getCapacity\_customers}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{getCapacity\_customers()}{getCapacity\_customers()}}
+{\footnotesize\ttfamily int Library\+::get\+Capacity\+\_\+customers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната capacity\+\_\+customers. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_aec01a09f249599025fd56fdca31bf7de}\label{class_library_aec01a09f249599025fd56fdca31bf7de}} 
+\index{Library@{Library}!getCapacity\_library\_books@{getCapacity\_library\_books}}
+\index{getCapacity\_library\_books@{getCapacity\_library\_books}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{getCapacity\_library\_books()}{getCapacity\_library\_books()}}
+{\footnotesize\ttfamily int Library\+::get\+Capacity\+\_\+library\+\_\+books (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната capacity\+\_\+library\+\_\+books. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_a044bb30e2053dbc07c2f8979a2cd205a}\label{class_library_a044bb30e2053dbc07c2f8979a2cd205a}} 
+\index{Library@{Library}!getCurrent\_Administrator@{getCurrent\_Administrator}}
+\index{getCurrent\_Administrator@{getCurrent\_Administrator}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{getCurrent\_Administrator()}{getCurrent\_Administrator()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_administrator}{Administrator}} $\ast$ Library\+::get\+Current\+\_\+\+Administrator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Мутатор извеждащ стойността на член-\/данната current\+\_\+administrator. 
+
+\begin{DoxyReturn}{Returns}
+Administrator$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_aceefd60f23b27411abb0f5e72c176593}\label{class_library_aceefd60f23b27411abb0f5e72c176593}} 
+\index{Library@{Library}!getCurrent\_Customer@{getCurrent\_Customer}}
+\index{getCurrent\_Customer@{getCurrent\_Customer}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{getCurrent\_Customer()}{getCurrent\_Customer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_customer}{Customer}} $\ast$ Library\+::get\+Current\+\_\+\+Customer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Мутатор извеждащ стойността на член-\/данната current\+\_\+customer. 
+
+\begin{DoxyReturn}{Returns}
+Customer$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_aaa839de9fc1b721e08aa4d209fcb7726}\label{class_library_aaa839de9fc1b721e08aa4d209fcb7726}} 
+\index{Library@{Library}!getCustomers@{getCustomers}}
+\index{getCustomers@{getCustomers}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{getCustomers()}{getCustomers()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_customer}{Customer}} $\ast$ Library\+::get\+Customers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ масива customers. 
+
+\begin{DoxyReturn}{Returns}
+Customer$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_acda52a887f266490ae2ea90b15bb2e47}\label{class_library_acda52a887f266490ae2ea90b15bb2e47}} 
+\index{Library@{Library}!getlibrary\_books@{getlibrary\_books}}
+\index{getlibrary\_books@{getlibrary\_books}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{getlibrary\_books()}{getlibrary\_books()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_book}{Book}} $\ast$ Library\+::getlibrary\+\_\+books (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ масива library\+\_\+books. 
+
+\begin{DoxyReturn}{Returns}
+Book$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_a7128f3f90817eeef6bacea779b3cbf55}\label{class_library_a7128f3f90817eeef6bacea779b3cbf55}} 
+\index{Library@{Library}!library\_books\_add@{library\_books\_add}}
+\index{library\_books\_add@{library\_books\_add}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{library\_books\_add()}{library\_books\_add()}}
+{\footnotesize\ttfamily void Library\+::library\+\_\+books\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_book}{Book}}}]{book }\end{DoxyParamCaption})}
+
+
+
+Функция, която добавя книга в масива library\+\_\+books на библиотеката 
+
+
+\begin{DoxyParams}{Parameters}
+{\em book} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_a68969b65c02b05b0f7a8f565c24e72d0}\label{class_library_a68969b65c02b05b0f7a8f565c24e72d0}} 
+\index{Library@{Library}!library\_books\_remove@{library\_books\_remove}}
+\index{library\_books\_remove@{library\_books\_remove}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{library\_books\_remove()}{library\_books\_remove()}}
+{\footnotesize\ttfamily void Library\+::library\+\_\+books\+\_\+remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_book}{Book}}}]{b }\end{DoxyParamCaption})}
+
+
+
+Функция, която премахва книга в масива library\+\_\+books на библиотеката 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_afe96b15d48dd2c0a401f8dc4112f9419}\label{class_library_afe96b15d48dd2c0a401f8dc4112f9419}} 
+\index{Library@{Library}!login@{login}}
+\index{login@{login}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily void Library\+::login (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+username,  }\item[{const char $\ast$}]{\+\_\+password }\end{DoxyParamCaption})}
+
+
+
+Функция за влизане на профил като проверява дали е потребител или администратор 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+username} & \\
+\hline
+{\em \+\_\+password} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_a8815dceedbbdd02f55f3b47b542ae1e1}\label{class_library_a8815dceedbbdd02f55f3b47b542ae1e1}} 
+\index{Library@{Library}!logout@{logout}}
+\index{logout@{logout}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{logout()}{logout()}}
+{\footnotesize\ttfamily void Library\+::logout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция за излизане на потребител 
+
+\mbox{\Hypertarget{class_library_a7b4fcb900d5dc12522cf0d8f8c2d0c38}\label{class_library_a7b4fcb900d5dc12522cf0d8f8c2d0c38}} 
+\index{Library@{Library}!operator=@{operator=}}
+\index{operator=@{operator=}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_library}{Library}} \& Library\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_library}{Library}} \&}]{other }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_library}{Library}}\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_aef3dc52c527b35fb179ddd61aa75b809}\label{class_library_aef3dc52c527b35fb179ddd61aa75b809}} 
+\index{Library@{Library}!print@{print}}
+\index{print@{print}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Library\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Принтира стойностите на член-\/данните от класа 
+
+\mbox{\Hypertarget{class_library_af39d3f2615df685fa861f016d17abd95}\label{class_library_af39d3f2615df685fa861f016d17abd95}} 
+\index{Library@{Library}!read@{read}}
+\index{read@{read}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily void Library\+::read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Четене на данни за \mbox{\hyperlink{class_library}{Library}} от файлов поток 
+
+\mbox{\Hypertarget{class_library_a6fc6b39dd88838a8a34dc8d0766b646a}\label{class_library_a6fc6b39dd88838a8a34dc8d0766b646a}} 
+\index{Library@{Library}!resizeAdministrators@{resizeAdministrators}}
+\index{resizeAdministrators@{resizeAdministrators}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{resizeAdministrators()}{resizeAdministrators()}}
+{\footnotesize\ttfamily void Library\+::resize\+Administrators (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция, която увеличава размера на capacity\+\_\+administrators, ако няма повече място за нови администратори 
+
+\mbox{\Hypertarget{class_library_a7101ff8a92840907fa3c68946eede6c1}\label{class_library_a7101ff8a92840907fa3c68946eede6c1}} 
+\index{Library@{Library}!resizeCustomers@{resizeCustomers}}
+\index{resizeCustomers@{resizeCustomers}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{resizeCustomers()}{resizeCustomers()}}
+{\footnotesize\ttfamily void Library\+::resize\+Customers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция, която увеличава размера на capacity\+\_\+customers, ако няма повече място за нови потребители 
+
+\mbox{\Hypertarget{class_library_a27f800d322db4f33add55fe5aeb20762}\label{class_library_a27f800d322db4f33add55fe5aeb20762}} 
+\index{Library@{Library}!resizelibrary\_books@{resizelibrary\_books}}
+\index{resizelibrary\_books@{resizelibrary\_books}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{resizelibrary\_books()}{resizelibrary\_books()}}
+{\footnotesize\ttfamily void Library\+::resizelibrary\+\_\+books (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция, която увеличава размера на capacity\+\_\+library\+\_\+books, ако няма повече място за нови книги 
+
+\mbox{\Hypertarget{class_library_a5bfcb1b53dcd4da7175785400ef17930}\label{class_library_a5bfcb1b53dcd4da7175785400ef17930}} 
+\index{Library@{Library}!save@{save}}
+\index{save@{save}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Library\+::save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Запазване на данни за \mbox{\hyperlink{class_library}{Library}} от файлов поток 
+
+\mbox{\Hypertarget{class_library_a87851c93d933efe786045b65c049b876}\label{class_library_a87851c93d933efe786045b65c049b876}} 
+\index{Library@{Library}!setCapacity\_administrators@{setCapacity\_administrators}}
+\index{setCapacity\_administrators@{setCapacity\_administrators}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{setCapacity\_administrators()}{setCapacity\_administrators()}}
+{\footnotesize\ttfamily void Library\+::set\+Capacity\+\_\+administrators (\begin{DoxyParamCaption}\item[{int}]{\+\_\+capacity\+\_\+administrators }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+administrators. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+capacity\+\_\+administrators} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_a33302e77d52a58064473d53d8ee6dfa5}\label{class_library_a33302e77d52a58064473d53d8ee6dfa5}} 
+\index{Library@{Library}!setCapacity\_customers@{setCapacity\_customers}}
+\index{setCapacity\_customers@{setCapacity\_customers}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{setCapacity\_customers()}{setCapacity\_customers()}}
+{\footnotesize\ttfamily void Library\+::set\+Capacity\+\_\+customers (\begin{DoxyParamCaption}\item[{int}]{\+\_\+capacity\+\_\+customers }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+customers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+capacity\+\_\+customers} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_library_a8d21c083791e9c039fc1cdbd7161c2c8}\label{class_library_a8d21c083791e9c039fc1cdbd7161c2c8}} 
+\index{Library@{Library}!setCapacity\_library\_books@{setCapacity\_library\_books}}
+\index{setCapacity\_library\_books@{setCapacity\_library\_books}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{setCapacity\_library\_books()}{setCapacity\_library\_books()}}
+{\footnotesize\ttfamily void Library\+::set\+Capacity\+\_\+library\+\_\+books (\begin{DoxyParamCaption}\item[{int}]{\+\_\+capacity\+\_\+library\+\_\+books }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+library\+\_\+books. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+capacity\+\_\+library\+\_\+books} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_library_a9c2a320cb47d3884558c6b33910e1ee3}\label{class_library_a9c2a320cb47d3884558c6b33910e1ee3}} 
+\index{Library@{Library}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_library}{Library}} \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за извеждане на данни на \mbox{\hyperlink{class_library}{Library}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em l} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_library_ab5c1bfffbda453f4ef15c6ff64442a38}\label{class_library_ab5c1bfffbda453f4ef15c6ff64442a38}} 
+\index{Library@{Library}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Library@{Library}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\mbox{\hyperlink{class_library}{Library}} \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за въвеждане на данни на \mbox{\hyperlink{class_library}{Library}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & \\
+\hline
+{\em l} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Code/\mbox{\hyperlink{_library_8h}{Library.\+h}}\item 
+Code/\mbox{\hyperlink{_library_8cpp}{Library.\+cpp}}\end{DoxyCompactItemize}

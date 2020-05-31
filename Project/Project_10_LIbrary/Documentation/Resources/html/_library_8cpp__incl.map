@@ -1,0 +1,17 @@
+<map id="Code/Library.cpp" name="Code/Library.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="405,5,525,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="520,379,592,405"/>
+<area shape="rect" id="node3" title=" " alt="" coords="164,379,225,405"/>
+<area shape="rect" id="node4" title=" " alt="" coords="479,80,545,107"/>
+<area shape="rect" id="node5" href="$_library_8h.html" title="Класът Library съдържа данни за една библиотека, която има книги, потребители и администратори" alt="" coords="383,80,455,107"/>
+<area shape="rect" id="node6" href="$_book_8cpp.html" title=" " alt="" coords="373,304,451,331"/>
+<area shape="rect" id="node9" href="$_customer_8cpp.html" title=" " alt="" coords="230,155,333,181"/>
+<area shape="rect" id="node14" href="$_administrator_8cpp.html" title=" " alt="" coords="357,155,481,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="432,379,496,405"/>
+<area shape="rect" id="node8" href="$_book_8h.html" title=" " alt="" coords="345,379,407,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="43,229,117,256"/>
+<area shape="rect" id="node11" href="$_customer_8h.html" title="Класът Administrator съдържа данни за профил, който е с потребителски права" alt="" coords="243,229,333,256"/>
+<area shape="rect" id="node12" href="$_parent_8cpp.html" title=" " alt="" coords="245,304,331,331"/>
+<area shape="rect" id="node13" href="$_parent_8h.html" title=" " alt="" coords="250,379,321,405"/>
+<area shape="rect" id="node15" href="$_administrator_8h.html" title="Класът Administrator съдържа данни за профил, който е с администраторски права" alt="" coords="357,229,467,256"/>
+</map>

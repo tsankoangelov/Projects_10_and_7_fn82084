@@ -1,0 +1,462 @@
+\hypertarget{class_user}{}\doxysection{User Class Reference}
+\label{class_user}\index{User@{User}}
+
+
+{\ttfamily \#include $<$User.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_user_a4a0137053e591fbb79d9057dd7d2283d}{User}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_user}{User}}\+:\+: \mbox{\hyperlink{class_user}{User}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_user_a78184063f5f8320a84dcbb18dcbeaceb}{User}} (const \mbox{\hyperlink{class_user}{User}} \&)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_user}{User}}\+:\+: \mbox{\hyperlink{class_user}{User}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_user}{User}} \& \mbox{\hyperlink{class_user_a2b3a3b191b8f02c7bbb32f9bffca2436}{operator=}} (const \mbox{\hyperlink{class_user}{User}} \&)
+\item 
+\mbox{\hyperlink{class_user_ac00b72ad64eb4149f7b21b9f5468c2b2}{$\sim$\+User}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_user}{User}}\+:\+: \mbox{\hyperlink{class_user}{User}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_user_a0de3081f677b772b5c6f43120231c6eb}{User}} (const char $\ast$, const char $\ast$, const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_user}{User}}\+:\+: \mbox{\hyperlink{class_user}{User}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_ab4b18fc1e47bfec8c442734a4c3b019d}{set\+Username}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната username. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_ad2cc7682931324536e8cfe8b0302d43d}{set\+Password}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната password. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_aa16cfdf55b1248e22b1cdb0296ca3854}{set\+Email}} (char $\ast$)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната email. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_a94be88c59b27b0ecd9e6744e88dffe3e}{set\+Capacity\+\_\+travels}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+travels. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_user_a07f1194e41cdfee06a9bbed1cccc75c7}{get\+Username}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната username. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_user_a8fef423a49f977dfdd5beaa318bdbf88}{get\+Password}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната password. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_user_af9219c30f4b41deb01e5cb14ec9f9182}{get\+Email}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната email. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_user_a4ae6cebb21d4c6ae66b93acb699ce504}{get\+Capacity\+\_\+travels}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ стойността на член-\/данната capacity\+\_\+travels. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_a0b0955e48c320003b60992c958460058}{resize\+Travels}} ()
+\begin{DoxyCompactList}\small\item\em Функция, която увеличава размера на capacity\+\_\+travels, ако няма повече място за нови потребители \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_a66314b7336623192994bda9de31731e8}{travels\+\_\+add}} (\mbox{\hyperlink{class_travel}{Travel}})
+\begin{DoxyCompactList}\small\item\em Функция, която добавя пътуване в масива travels на потребителя \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_travel}{Travel}} $\ast$ \mbox{\hyperlink{class_user_ae8d2413f6a326b2968a6ff4278210e3e}{get\+Travels}} () const
+\begin{DoxyCompactList}\small\item\em Селектор извеждащ масива travels. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_a7bb2e966d454a6d6d9a6d2bc475fb850}{print}} () const
+\begin{DoxyCompactList}\small\item\em Принтира стойностите на член-\/данните от класа \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_a36eebd75588c46fcf8c59a7ca8c1b00d}{read}} (std\+::istream \&is, \mbox{\hyperlink{class_user}{User}} \&user)
+\begin{DoxyCompactList}\small\item\em Четене на данни за \mbox{\hyperlink{class_user}{User}} от файлов поток \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_a2ef8f522e785f2cf1ec7db1376193805}{write}} (std\+::ostream \&os, const \mbox{\hyperlink{class_user}{User}} \&user)
+\begin{DoxyCompactList}\small\item\em Писане на данни за \mbox{\hyperlink{class_user}{User}} от файлов поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_user_a31d7869a68fe3dad8cb0fd04cafe11d0}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_user}{User}} \&u)
+\begin{DoxyCompactList}\small\item\em Оператор за извеждане на данни на \mbox{\hyperlink{class_user}{User}} в поток \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{class_user_a3356303e2041c4836c73caf847f43bbe}{operator$>$$>$}} (std\+::istream \&in, \mbox{\hyperlink{class_user}{User}} \&u)
+\begin{DoxyCompactList}\small\item\em Оператор за въвеждане на данни на \mbox{\hyperlink{class_user}{User}} в поток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 18 of file User.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_user_a4a0137053e591fbb79d9057dd7d2283d}\label{class_user_a4a0137053e591fbb79d9057dd7d2283d}} 
+\index{User@{User}!User@{User}}
+\index{User@{User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily User\+::\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_user}{User}}\+:\+: \mbox{\hyperlink{class_user}{User}} object. 
+
+
+
+Definition at line 35 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a78184063f5f8320a84dcbb18dcbeaceb}\label{class_user_a78184063f5f8320a84dcbb18dcbeaceb}} 
+\index{User@{User}!User@{User}}
+\index{User@{User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily User\+::\+User (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_user}{User}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_user}{User}}\+:\+: \mbox{\hyperlink{class_user}{User}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 51 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_ac00b72ad64eb4149f7b21b9f5468c2b2}\label{class_user_ac00b72ad64eb4149f7b21b9f5468c2b2}} 
+\index{User@{User}!````~User@{$\sim$User}}
+\index{````~User@{$\sim$User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{$\sim$User()}{~User()}}
+{\footnotesize\ttfamily User\+::$\sim$\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_user}{User}}\+:\+: \mbox{\hyperlink{class_user}{User}} object. 
+
+
+
+Definition at line 78 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a0de3081f677b772b5c6f43120231c6eb}\label{class_user_a0de3081f677b772b5c6f43120231c6eb}} 
+\index{User@{User}!User@{User}}
+\index{User@{User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily User\+::\+User (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+username,  }\item[{const char $\ast$}]{\+\_\+password,  }\item[{const char $\ast$}]{\+\_\+email }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_user}{User}}\+:\+: \mbox{\hyperlink{class_user}{User}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+username} & \\
+\hline
+{\em \+\_\+password} & \\
+\hline
+{\em \+\_\+email} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 91 of file User.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_user_a4ae6cebb21d4c6ae66b93acb699ce504}\label{class_user_a4ae6cebb21d4c6ae66b93acb699ce504}} 
+\index{User@{User}!getCapacity\_travels@{getCapacity\_travels}}
+\index{getCapacity\_travels@{getCapacity\_travels}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getCapacity\_travels()}{getCapacity\_travels()}}
+{\footnotesize\ttfamily int User\+::get\+Capacity\+\_\+travels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната capacity\+\_\+travels. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 193 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_af9219c30f4b41deb01e5cb14ec9f9182}\label{class_user_af9219c30f4b41deb01e5cb14ec9f9182}} 
+\index{User@{User}!getEmail@{getEmail}}
+\index{getEmail@{getEmail}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getEmail()}{getEmail()}}
+{\footnotesize\ttfamily char $\ast$ User\+::get\+Email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната email. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 182 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a8fef423a49f977dfdd5beaa318bdbf88}\label{class_user_a8fef423a49f977dfdd5beaa318bdbf88}} 
+\index{User@{User}!getPassword@{getPassword}}
+\index{getPassword@{getPassword}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getPassword()}{getPassword()}}
+{\footnotesize\ttfamily char $\ast$ User\+::get\+Password (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната password. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 171 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_ae8d2413f6a326b2968a6ff4278210e3e}\label{class_user_ae8d2413f6a326b2968a6ff4278210e3e}} 
+\index{User@{User}!getTravels@{getTravels}}
+\index{getTravels@{getTravels}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getTravels()}{getTravels()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_travel}{Travel}} $\ast$ User\+::get\+Travels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ масива travels. 
+
+\begin{DoxyReturn}{Returns}
+Travel$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 244 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a07f1194e41cdfee06a9bbed1cccc75c7}\label{class_user_a07f1194e41cdfee06a9bbed1cccc75c7}} 
+\index{User@{User}!getUsername@{getUsername}}
+\index{getUsername@{getUsername}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getUsername()}{getUsername()}}
+{\footnotesize\ttfamily char $\ast$ User\+::get\+Username (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Селектор извеждащ стойността на член-\/данната username. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 160 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a2b3a3b191b8f02c7bbb32f9bffca2436}\label{class_user_a2b3a3b191b8f02c7bbb32f9bffca2436}} 
+\index{User@{User}!operator=@{operator=}}
+\index{operator=@{operator=}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_user}{User}} \& User\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_user}{User}} \&}]{other }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_user}{User}}\& 
+\end{DoxyReturn}
+
+
+Definition at line 63 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a7bb2e966d454a6d6d9a6d2bc475fb850}\label{class_user_a7bb2e966d454a6d6d9a6d2bc475fb850}} 
+\index{User@{User}!print@{print}}
+\index{print@{print}!User@{User}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void User\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Принтира стойностите на член-\/данните от класа 
+
+
+
+Definition at line 256 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a36eebd75588c46fcf8c59a7ca8c1b00d}\label{class_user_a36eebd75588c46fcf8c59a7ca8c1b00d}} 
+\index{User@{User}!read@{read}}
+\index{read@{read}!User@{User}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily void User\+::read (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{class_user}{User}} \&}]{user }\end{DoxyParamCaption})}
+
+
+
+Четене на данни за \mbox{\hyperlink{class_user}{User}} от файлов поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 333 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a0b0955e48c320003b60992c958460058}\label{class_user_a0b0955e48c320003b60992c958460058}} 
+\index{User@{User}!resizeTravels@{resizeTravels}}
+\index{resizeTravels@{resizeTravels}!User@{User}}
+\doxysubsubsection{\texorpdfstring{resizeTravels()}{resizeTravels()}}
+{\footnotesize\ttfamily void User\+::resize\+Travels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция, която увеличава размера на capacity\+\_\+travels, ако няма повече място за нови потребители 
+
+
+
+Definition at line 204 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a94be88c59b27b0ecd9e6744e88dffe3e}\label{class_user_a94be88c59b27b0ecd9e6744e88dffe3e}} 
+\index{User@{User}!setCapacity\_travels@{setCapacity\_travels}}
+\index{setCapacity\_travels@{setCapacity\_travels}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setCapacity\_travels()}{setCapacity\_travels()}}
+{\footnotesize\ttfamily void User\+::set\+Capacity\+\_\+travels (\begin{DoxyParamCaption}\item[{int}]{\+\_\+capacity\+\_\+travels }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната capacity\+\_\+travels. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+capacity\+\_\+travels} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 149 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_aa16cfdf55b1248e22b1cdb0296ca3854}\label{class_user_aa16cfdf55b1248e22b1cdb0296ca3854}} 
+\index{User@{User}!setEmail@{setEmail}}
+\index{setEmail@{setEmail}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setEmail()}{setEmail()}}
+{\footnotesize\ttfamily void User\+::set\+Email (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+email }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната email. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+email} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 136 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_ad2cc7682931324536e8cfe8b0302d43d}\label{class_user_ad2cc7682931324536e8cfe8b0302d43d}} 
+\index{User@{User}!setPassword@{setPassword}}
+\index{setPassword@{setPassword}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setPassword()}{setPassword()}}
+{\footnotesize\ttfamily void User\+::set\+Password (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+password }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната password. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+password} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 123 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_ab4b18fc1e47bfec8c442734a4c3b019d}\label{class_user_ab4b18fc1e47bfec8c442734a4c3b019d}} 
+\index{User@{User}!setUsername@{setUsername}}
+\index{setUsername@{setUsername}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setUsername()}{setUsername()}}
+{\footnotesize\ttfamily void User\+::set\+Username (\begin{DoxyParamCaption}\item[{char $\ast$}]{\+\_\+username }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната username. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+username} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 110 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a66314b7336623192994bda9de31731e8}\label{class_user_a66314b7336623192994bda9de31731e8}} 
+\index{User@{User}!travels\_add@{travels\_add}}
+\index{travels\_add@{travels\_add}!User@{User}}
+\doxysubsubsection{\texorpdfstring{travels\_add()}{travels\_add()}}
+{\footnotesize\ttfamily void User\+::travels\+\_\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_travel}{Travel}}}]{travel }\end{DoxyParamCaption})}
+
+
+
+Функция, която добавя пътуване в масива travels на потребителя 
+
+
+\begin{DoxyParams}{Parameters}
+{\em travel} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 228 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a2ef8f522e785f2cf1ec7db1376193805}\label{class_user_a2ef8f522e785f2cf1ec7db1376193805}} 
+\index{User@{User}!write@{write}}
+\index{write@{write}!User@{User}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void User\+::write (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_user}{User}} \&}]{user }\end{DoxyParamCaption})}
+
+
+
+Писане на данни за \mbox{\hyperlink{class_user}{User}} от файлов поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 365 of file User.\+cpp.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_user_a31d7869a68fe3dad8cb0fd04cafe11d0}\label{class_user_a31d7869a68fe3dad8cb0fd04cafe11d0}} 
+\index{User@{User}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_user}{User}} \&}]{u }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за извеждане на данни на \mbox{\hyperlink{class_user}{User}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em u} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+
+
+Definition at line 281 of file User.\+cpp.
+
+\mbox{\Hypertarget{class_user_a3356303e2041c4836c73caf847f43bbe}\label{class_user_a3356303e2041c4836c73caf847f43bbe}} 
+\index{User@{User}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\mbox{\hyperlink{class_user}{User}} \&}]{u }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Оператор за въвеждане на данни на \mbox{\hyperlink{class_user}{User}} в поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & \\
+\hline
+{\em u} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+Definition at line 301 of file User.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_user_8h}{User.\+h}}\item 
+\mbox{\hyperlink{_user_8cpp}{User.\+cpp}}\end{DoxyCompactItemize}
